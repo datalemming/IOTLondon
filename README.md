@@ -34,5 +34,5 @@ $ jupyter notebook
 
 Once running you should create the table using the clearly named(!) relevant notebook, come out of jupyter and upload the sample data using the load-data.py script.  Once successful, you can restart Jupyter and run the querying aarhus data notebook.  If you also want to run the spark notebook you will need to restart Jupyter as follows:
 
-$ SPARK_CLASSPATH=<path to the riak-spark connector jar file **INCLUDING THE JAR FILE NAME**> jupyter notebook
+    $ SPARK_CLASSPATH=<path to the riak-spark connector jar file **INCLUDING THE JAR FILE NAME**> jupyter notebook
 
